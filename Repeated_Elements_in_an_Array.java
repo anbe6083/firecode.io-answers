@@ -1,3 +1,8 @@
+/*
+    Treeset is used so that a treeset will automatically put the elements in order
+*/
+
+
 public static String duplicate(int[] numbers){
     if(numbers == null) return null;
     TreeSet<Integer> ts = new TreeSet<>();
